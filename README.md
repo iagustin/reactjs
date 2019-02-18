@@ -60,10 +60,11 @@ You can use ES6 literal string `${}` ie `${firstname} ${lastname}`
 if(){}else if(){}
 
 15. Inline styles
-regular html styles
+* regular html styles
   <h1 style="color: #ddd">
-JSX style expects an object
+* JSX style expects an object
   <h1 style={color: #ddd}>
     this is still wrong
- <h1 style={{color: #ddd}}>
+* <h1 style={{color: #ddd}}>
    this is better since going from JSX to JS you need to start with {} then add your obj {{color: #ddd}}
+   since now you are inside of JS, everything that can have a dash - in html, inside JSX will need to be camel case.
