@@ -9,11 +9,12 @@ vid time 1-5:25
 * Lifecycle methods: Hook into different timing events of your react components.
 * Fetching data from API using HTTP
 * Forms: Role in creating good user experience
-  
+ 
+Pre-requisite:
 HTML CSS JS ES6
 
 Projects:
-vid time 5:26
+@ 5:26 mins
 
 You can modularize code into JSX components.
 
@@ -22,5 +23,5 @@ You can modularize code into JSX components.
 * The JS we are going to contineu to write it's simply going to be compiled down to, or turned into elements on a page. The JS we are going to write will be turned into HTML elements on a page. 
 
 @13 mins
-* Why import React? To be able to use JSX (sudo language).
+* Why import React? To be able to use JSX (sudo language). React library will enable JSX to work.
 * JSX: JS rendition or version of HMTL. Looks identical to html with few slight differences.
