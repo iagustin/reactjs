@@ -1,6 +1,6 @@
 # The way I think about basic reactjs
 https://www.youtube.com/watch?v=DLX62G4lc44
-
+vid time 1-5:25
 * Components: Reusable pieces of HTML, ie <MyComponent>
 * JSX: Code using HTML like syntax you are already familiar with. 
 * Props: Passing data around your application.
@@ -11,3 +11,16 @@ https://www.youtube.com/watch?v=DLX62G4lc44
 * Forms: Role in creating good user experience
   
 HTML CSS JS ES6
+
+Projects:
+vid time 5:26
+
+You can modularize code into JSX components.
+
+@11:25 
+* Everything is going to have to tied back to an html page of some sort => Everything in the end comes down to creating an HTML. 
+* The JS we are going to contineu to write it's simply going to be compiled down to, or turned into elements on a page. The JS we are going to write will be turned into HTML elements on a page. 
+
+@13 mins
+* Why import React? To be able to use JSX (sudo language).
+* JSX: JS rendition or version of HMTL. Looks identical to html with few slight differences.
