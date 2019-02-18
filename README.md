@@ -7,6 +7,7 @@ https://www.youtube.com/watch?v=DLX62G4lc44
 * State: How to maintain and change data
 * Event handling: Interactivity with users.
 * Lifecycle methods: Hook into different timing events of your react components.
-* Forms: Help with good user experience
+* Fetching data from API using HTTP
+* Forms: Role in creating good user experience
   
 HTML CSS JS ES6
