@@ -35,3 +35,35 @@ Components form a tree. There is one root element and it can have components and
 
 @45:38
 Any single Component can only return one element.
+
+@50 mins
+Static todo app
+
+func App
+ div
+  input type 'checkbox'
+  p text here
+  
+  input type 'checkbox'
+  p text here
+  
+  input type 'checkbox'
+  p text here
+
+For class on jsx elements use className 
+
+@58 mins
+Writing JS in JSX. You need to use {} to insert JS inside JSX.
+You can use ES6 literal string `${}` ie `${firstname} ${lastname}`
+
+@ 1 hour
+if(){}else if(){}
+
+15. Inline styles
+regular html styles
+  <h1 style="color: #ddd">
+JSX style expects an object
+  <h1 style={color: #ddd}>
+    this is still wrong
+ <h1 style={{color: #ddd}}>
+   this is better since going from JSX to JS you need to start with {} then add your obj {{color: #ddd}}
