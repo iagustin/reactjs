@@ -27,3 +27,11 @@ You can modularize code into JSX components.
 * JSX: JS rendition or version of HMTL. Looks identical to html with few slight differences.
 
 My understanding: You have one main HTML page. You can manually create an element in the html page, a list item, a css card... But we can automate using JS, so we can create a few thousands of the same element on the page most likely with different data which makes this combo powerful. You are programming in one language, JS, but there is some code that will generate HTML in the end and this part is easier to see if we use JSX, JS that renders html elements.
+
+@39 mins
+Components vs elements: Elements end up being html code. If convention is used, elements are lowercase and components usually start with a Capital letter.
+
+Components form a tree. There is one root element and it can have components and elements.
+
+@45:38
+Any single Component can only return one element.
