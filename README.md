@@ -103,3 +103,8 @@ Ex: youtube media flag has similar information.
 
 * If props are too many, you can pass obejcts ie <ContactCard contact={{}} /> instead of name, imgUrl, phone, email
 * The component ContactCard has a contact property that is escaped with {} and takes an obj {{}} = {{name: ""...}
+
+@1:38 hr/mins
+style={{display: props.question ? "block" : "none"}}
+or
+style = {{props.question ? display: 'block' :display: 'none' }}
