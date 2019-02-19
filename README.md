@@ -61,7 +61,7 @@ if(){}else if(){}
 
 15. Inline styles
 * regular html styles
-** h1 style="color: #ddd"
+**h1 style="color: #ddd"
 * JSX style expects an object
 ** h1 style={color: #ddd}
 **  this is still wrong
