@@ -97,3 +97,6 @@ func App
     h3
     p
     p
+
+* If props are too many, you can pass obejcts ie <ContactCard contact={{}} /> instead of name, imgUrl, phone, email
+* The component ContactCard has a contact property that is escaped with {} and takes an obj {{}} = {{name: ""...}
