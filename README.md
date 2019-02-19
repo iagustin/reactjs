@@ -61,12 +61,14 @@ if(){}else if(){}
 
 15. Inline styles
 * regular html styles
-**h1 style="color: #ddd"
+* h1 style="color: #ddd"
 * JSX style expects an object
-** h1 style={color: #ddd}
-**  this is still wrong
+* h1 style={color: #ddd}
+* this is still wrong
 * h1 style={{color: #ddd}}
-**   this is better since going from JSX to JS you need to start with {} then add your obj {{color: #ddd}}
-**   since now you are inside of JS, everything that can have a dash - in html, inside JSX will need to be camel case. If the value is a number ie fontSize, the value can be a number and it defaults to px. You can specify the measurement but make the value a string
+* this is better since going from JSX to JS you need to start with {} then add your obj {{color: #ddd}}
+* since now you are inside of JS, everything that can have a dash - in html, inside JSX will need to be camel case. If the value is a number ie fontSize, the value can be a number and it defaults to px. You can specify the measurement but make the value a string
 
 inline styles can make styles dynamic
+
+@1 hour Props
