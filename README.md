@@ -48,7 +48,8 @@ Static todo app
   p text here
   
   input type 'checkbox'
-  p text here```
+  p text here
+```
 
 For class on jsx elements use className 
 
@@ -65,7 +66,8 @@ if(){}else if(){}
  JSX style expects an object
  h1 style={color: #ddd}
  this is still wrong
- h1 style={{color: #ddd}}```
+ h1 style={{color: #ddd}}
+ ```
 * this is better since going from JSX to JS you need to start with {} then add your obj {{color: #ddd}}
 * since now you are inside of JS, everything that can have a dash - in html, inside JSX will need to be camel case. If the value is a number ie fontSize, the value can be a number and it defaults to px. You can specify the measurement but make the value a string
 
