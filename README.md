@@ -108,3 +108,5 @@ Ex: youtube media flag has similar information.
 style={{display: props.question ? "block" : "none"}}
 or
 style = {{props.question ? display: 'block' :display: 'none' }}
+or
+style = {{display: !props.question && 'none'}}
