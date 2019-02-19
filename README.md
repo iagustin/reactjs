@@ -72,3 +72,28 @@ if(){}else if(){}
 inline styles can make styles dynamic
 
 @1 hour Props
+Make <TodoItem/> more flexible
+
+17. Props concept
+anchor tag a needs href
+img tag needs src properties are required
+for input tag, you can actually modify how the tag acts using the type property.
+
+Ex: youtube media flag has similar information. 
+
+19. Props in React
+@1:17 hr/mins
+
+func App
+ return
+  div
+   div
+    img
+    h3
+    p
+    p
+   div
+    img
+    h3
+    p
+    p
