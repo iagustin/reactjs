@@ -39,7 +39,7 @@ Any single Component can only return one element.
 @50 mins
 Static todo app
 
-func App
+```func App
  div
   input type 'checkbox'
   p text here
@@ -48,7 +48,7 @@ func App
   p text here
   
   input type 'checkbox'
-  p text here
+  p text here```
 
 For class on jsx elements use className 
 
@@ -60,12 +60,12 @@ You can use ES6 literal string `${}` ie `${firstname} ${lastname}`
 if(){}else if(){}
 
 15. Inline styles
-* regular html styles
-* h1 style="color: #ddd"
-* JSX style expects an object
-* h1 style={color: #ddd}
-* this is still wrong
-* h1 style={{color: #ddd}}
+``` regular html styles
+ h1 style="color: #ddd"
+ JSX style expects an object
+ h1 style={color: #ddd}
+ this is still wrong
+ h1 style={{color: #ddd}}```
 * this is better since going from JSX to JS you need to start with {} then add your obj {{color: #ddd}}
 * since now you are inside of JS, everything that can have a dash - in html, inside JSX will need to be camel case. If the value is a number ie fontSize, the value can be a number and it defaults to px. You can specify the measurement but make the value a string
 
@@ -84,7 +84,7 @@ Ex: youtube media flag has similar information.
 19. Props in React
 @1:17 hr/mins
 
-func App
+```func App
  return
   div
    div
@@ -97,6 +97,7 @@ func App
     h3
     p
     p
+```
 
 * If props are too many, you can pass obejcts ie <ContactCard contact={{}} /> instead of name, imgUrl, phone, email
 * The component ContactCard has a contact property that is escaped with {} and takes an obj {{}} = {{name: ""...}
